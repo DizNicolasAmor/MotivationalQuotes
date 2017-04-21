@@ -1,7 +1,7 @@
 /* <!--
 Motivational Quotes
 --------------------
-http://codepen.io/DizNicolasAmor/pen/OWgdBP
+https://diznicolasamor.github.io/MotivationalQuotes/
   
 Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
 
