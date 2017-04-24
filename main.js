@@ -118,12 +118,13 @@ $(document).ready(function() {
   //default quote (that shows when page starts)
   getQuote(quotes, authors);
 
-  //Shows new quote when button is clicked
-  $("#new-quote").click(function() {
-    getQuote(quotes, authors);
-    $("#quoteBody").fadeOut("slow").fadeIn("slow");
-  });
-  
+  //Shows new quote when button is clicked  $('#new-quote').click(function() {
+  $('#new-quote').click(function() {
+    $('#textBody').fadeOut('slow', function() {
+      getQuote(quotes, authors);
+      $(this).fadeIn('slow');
+    });
+  });  
 
   function getQuote(q, a) {
     var randomNumber = Math.floor(Math.random() * quotes.length);
