@@ -2,7 +2,7 @@
 
 Motivational Quotes
 --------------------
-https://diznicolasamor.github.io/MotivationalQuotes/
+https://diznicolasamor.github.io/MotivationalQuotes/ and https://diznicolasamor.github.io/MotivationalQuotes/
   
 Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
 
