@@ -10,7 +10,7 @@ This project is a challenge posed by FreeCodeCamp.
 --> */
 
 
-body{
+html{
   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bolsa_Chica_State_Beach_sunset.jpg/1024px-Bolsa_Chica_State_Beach_sunset.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
