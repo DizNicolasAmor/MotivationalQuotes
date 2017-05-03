@@ -1,10 +1,9 @@
 /* <!--
 Motivational Quotes
 --------------------
-http://codepen.io/DizNicolasAmor/pen/OWgdBP
+https://diznicolasamor.github.io/MotivationalQuotes/
   
 Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
-
 This project is a challenge posed by FreeCodeCamp. 
   
 --> */
@@ -118,12 +117,13 @@ $(document).ready(function() {
   //default quote (that shows when page starts)
   getQuote(quotes, authors);
 
-  //Shows new quote when button is clicked
-  $("#new-quote").click(function() {
-    getQuote(quotes, authors);
-    $("#quoteBody").fadeOut("slow").fadeIn("slow");
-  });
-  
+  //Shows new quote when button is clicked  $('#new-quote').click(function() {
+  $('#new-quote').click(function() {
+    $('#textBody').fadeOut('slow', function() {
+      getQuote(quotes, authors);
+      $(this).fadeIn('slow');
+    });
+  });  
 
   function getQuote(q, a) {
     var randomNumber = Math.floor(Math.random() * quotes.length);
@@ -132,10 +132,8 @@ $(document).ready(function() {
     $(".twitter").attr('href', 'https://twitter.com/intent/tweet?hashtags=MotivationalQuotes&text=' + encodeURIComponent('"' + q[randomNumber] + '" - ' + a[randomNumber]));
     
 /* I do not add these links because they share the url with a random quote within the image. However I leave the commented code for other projects.
-
   $(".facebook").attr('href', 'http://www.facebook.com/sharer.php?u=http://codepen.io/DizNicolasAmor/pen/OWgdBP&t=MotivationalQuotes');
   $(".google-plus").attr('href', 'https://plus.google.com/share?url=http://codepen.io/DizNicolasAmor/pen/OWgdBP&t=MotivationalQuotes');
-
 */
   }
   
