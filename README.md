@@ -9,3 +9,5 @@ You can see this project here:
 - http://codepen.io/DizNicolasAmor/pen/OWgdBP
 
 This project is a challenge posed by FreeCodeCamp. Be free to use it and change it. 
+
+![motivationalquotesReadme](/images/motivationalquotesReadme.jpg?raw=true)
